@@ -1,16 +1,16 @@
 {
   "name": "backend",
   "version": "1.0.0",
+  "description": "Backend server for Streamly",
   "main": "src/server.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/server.js",
     "start": "node src/server.js"
   },
-  "keywords": [],
-  "author": "",
-  "type": "module",
+  "author": "Pravallika091",
   "license": "ISC",
-  "description": "",
+  "keywords": [],
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cookie-parser": "^1.4.7",
@@ -19,9 +19,13 @@
     "express": "^4.21.0",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.13.2",
-    "stream-chat": "^8.60.0"
+    "stream-chat": "^8.60.0",
+    "streamly": "file:.."
   },
   "devDependencies": {
     "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
