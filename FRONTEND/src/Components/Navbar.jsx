@@ -1,5 +1,5 @@
-import { Link, useLocation } from "react-router";
-import { useNavigate } from "react-router";
+import { Link, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import useAuthUser from "../hooks/useAuthUser";
 import useLogout from "../hooks/useLogout.js";
 import { BellIcon, LogOutIcon, ShipWheelIcon } from "lucide-react";
